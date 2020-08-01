@@ -70,3 +70,42 @@ import scipy as scp
 source_adj_path = "../data/polblogs/polblogs.mtx"
 adj=scp.io.mmread(source_adj_path).todense()
 
+
+
+# Check dict for keys and increase count
+num_sites_dict={}
+    for i in range():
+        structures, targets, _,num_sites = full_dataset[0]
+        if num_sites in num_sites_dict:
+            num_sites_dict[num_sites]=+1
+        else:
+            num_sites_dict[num_sites]=1
+
+# Sort Dictionary based on key values :
+import collections
+d = {2:3, 1:89, 4:5, 3:0}
+od = collections.OrderedDict(sorted(d.items()))
+
+
+# Iterate Dictionary
+for key, val in num_sites_dict_key_sorted.items():
+    y.append(val)
+
+
+# Numpy Load and Save
+np.save("../data/num_sites_count",num_sites_dict_key_sorted)
+
+
+# Pickle Save and Load
+pkl_out=open("../data/"+str(args.data)+"/sentences","wb")
+        pkl.dump(sentences,pkl_out)
+        pkl_out.close()
+
+with open("../data/"+str(args.data)+"/sentences", 'rb') as handle:
+    sentences = pkl.load(handle)
+
+
+# Torch Tensor Copy
+cluster_emb=x.clone() # x is a tensor
+
+
