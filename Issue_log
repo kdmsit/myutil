@@ -1,0 +1,25 @@
+************************************************** ERROR LOG **********************************************************
+
+#1: RuntimeError: bool value of Tensor with more than one value is ambiguous
+
+Wrong Code:
+    nn.MSELoss(y_true, y_pred)
+
+Correct Code:
+    nn.MSELoss()(y_true, y_pred)
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+#2 : Indentation Issue at Pycharm
+
+Reformat a code fragment in a file﻿
+
+In the editor, select a code fragment you want to reformat.
+
+From the main menu, select Code | Reformat Code or press Ctrl+Alt+L.
+
+If you don't select a code fragment, PyCharm will reformat the whole file.
+
+
+-----------------------------------------------------------------------------------------------------------------------
