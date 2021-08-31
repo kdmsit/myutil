@@ -23,3 +23,23 @@ If you don't select a code fragment, PyCharm will reformat the whole file.
 
 
 -----------------------------------------------------------------------------------------------------------------------
+
+#3 Torch Older Version :
+
+conda install pytorch==1.4.0 torchvision==0.5.0 -c pytorch
+
+URL :https://pytorch.org/get-started/previous-versions/
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+#4 install pytorch-metric-learning < v0.9.90
+
+pip install pytorch-metric-learning==x.x.xx
+
+For example, version 0.9.89
+
+pip install pytorch-metric-learning==0.9.89
+
+
+-----------------------------------------------------------------------------------------------------------------------
