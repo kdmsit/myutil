@@ -1,7 +1,7 @@
 '''
 Preprocessing Adjacency Matrix and Feature vector of nodes as per conventions of GCN
 '''
-import numpy as np
+import numpy_util as np
 def preprocess_graph(adj):
     adj_ = adj + np.eye(adj.shape[0])
     rowsum = np.array(adj_.sum(1))

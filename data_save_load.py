@@ -1,5 +1,5 @@
 # Numpy Load and Save
-import numpy as np
+import numpy_util as np
 def np_load_save(a):
     np.save("a.npy",a)
     data = np.load('a.npy')
